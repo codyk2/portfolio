@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Cody Kandarian</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+
+      <ul class="nav-links">
+        <li><a href="index.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="page-header reveal">
+      <h1>Projects</h1>
+      <p>A collection of work from coursework, research, and personal exploration.</p>
+    </section>
+
+    <section class="projects-grid stagger-children reveal">
+      <div class="project-card">
+        <h3>Fantasy Football Statistical Analysis</h3>
+        <p class="project-tech">Python, SQL, PostgreSQL, R, Pandas</p>
+        <p>Designed a PostgreSQL database to store 1,530+ NFL player projections
+           from CBS, ESPN, and Yahoo with normalized schema. Built a Python ETL
+           pipeline to web-scrape projection data with validation and error
+           handling, then performed statistical analysis in R and SQL to
+           identify high-value draft positions and player tiers.</p>
+        <a href="#" class="project-link">View Project &rarr;</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Particle Swarm Optimization Framework</h3>
+        <p class="project-tech">Python, PyQtGraph, Keysight ADS</p>
+        <p>Open-source optimization framework for RF circuit design at Keysight
+           Technologies. Includes a 3D Smith tube visualization tool for
+           real-time trajectory analysis and a Python engine processing 5D
+           performance arrays across frequency and impedance sweeps.</p>
+        <a href="#" class="project-link">View Project &rarr;</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Dynamic Spectrum Access System</h3>
+        <p class="project-tech">Python, Django, CBRS</p>
+        <p>Real-time spectrum management system built at Baylor's SMART Hub.
+           Protects military radar from interference while enabling commercial
+           spectrum sharing in the 3.1&ndash;3.45 GHz band, with geographic
+           interference mapping and spectrum waterfall displays.</p>
+        <a href="#" class="project-link">View Project &rarr;</a>
+      </div>
+
+      <div class="project-card">
+        <h3>More Coming Soon</h3>
+        <p class="project-tech">CSI 2300 &middot; Data Visualization</p>
+        <p>Visualizations and analyses from coursework will be added here
+           throughout the semester.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Cody Kandarian</p>
+  </footer>
+
+  <script src="scroll.js"></script>
+</body>
+</html>
